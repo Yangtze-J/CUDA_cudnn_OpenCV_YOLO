@@ -1,9 +1,18 @@
 1. Install CUDA and cuDNN
 
+	Whole process:
 	https://blog.csdn.net/jonms/article/details/79318566
-
+	
+	Download CUDA runfile for ubuntu 16.04
+	https://developer.nvidia.com/cuda-downloads
+	
+	Download cuDNN
+	https://developer.nvidia.com/rdp/cudnn-download
+	
 problem:  libcudart.so.8.0: cannot open shared object file: No such file or directory
+
 Solution:  https://github.com/BVLC/caffe/issues/4944
+
 
 2. Install OpenCV  (3.4.0 recommended)
 
