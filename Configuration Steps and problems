@@ -1,0 +1,25 @@
+1. Install CUDA and cuDNN
+
+	https://blog.csdn.net/jonms/article/details/79318566
+
+problem:  libcudart.so.8.0: cannot open shared object file: No such file or directory
+Solution:  https://github.com/BVLC/caffe/issues/4944
+
+2. Install OpenCV  (3.4.0 recommended)
+
+	https://www.learnopencv.com/install-opencv3-on-ubuntu/
+
+3. Install YOLO
+
+	https://pjreddie.com/darknet/yolo/
+
+4. Compilation of YOLO with OpenCV and CUDA
+	
+	https://www.cnblogs.com/chay/p/8052354.html
+
+problem:   Error during make with Opencv=1:
+	   /usr/local/include/opencv2/core/cvdef.h:485:1: error: unknown type name ‘namespace’
+	namespace cv { ^
+	   compilation terminated due to -Wfatal-errors.
+
+Solution:  https://github.com/pjreddie/darknet/issues/502
